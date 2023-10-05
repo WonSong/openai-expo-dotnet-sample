@@ -3,7 +3,6 @@ using System.Text;
 using Microsoft.AspNetCore.SignalR;
 using Newtonsoft.Json;
 using Server.Models;
-using Server.Services;
 
 namespace Server.Hubs;
 
@@ -16,7 +15,7 @@ public class ConversationHub : Hub
     // Important: Do not store secrets in code. 
     private const string OPEN_AI_SECRET = "";
 
-    public ConversationHub(OpenAIService openAiService, IHttpClientFactory httpClientFactory)
+    public ConversationHub(IHttpClientFactory httpClientFactory)
     {
         _httpClient = httpClientFactory.CreateClient();
     }
