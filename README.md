@@ -1,7 +1,9 @@
 # openai-expo-dotnet-sample
 ChatGPT streaming sample using React Native (Expo) and .NET (SignalR)
 
-https://github.com/WonSong/openai-expo-dotnet-sample/assets/5981331/646d0ca6-d4bc-42dc-a072-1efb62301f09
+
+https://github.com/WonSong/openai-expo-dotnet-sample/assets/5981331/5370576e-d5ae-4846-a094-48d0e2cc9952
+
 
 ## How to run
 
