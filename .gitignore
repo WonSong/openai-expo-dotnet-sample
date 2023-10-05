@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+node_modules
+bin
+obj
+yarn.lock
