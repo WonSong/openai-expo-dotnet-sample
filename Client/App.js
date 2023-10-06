@@ -4,7 +4,7 @@ import {useState, useRef} from "react";
 
 export default function App() {
     const ref = useRef(null);
-    const [messages, sendMessage, isLoading] = useConversationHub('user-server-url/conversation')
+    const [messages, sendMessage, isLoading] = useConversationHub('your-server-url/conversation')
     const [userMessage, setUserMessage] = useState('');
 
     const handleSendPressed = () => {
