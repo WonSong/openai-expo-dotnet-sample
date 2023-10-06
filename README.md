@@ -13,5 +13,6 @@ https://github.com/WonSong/openai-expo-dotnet-sample/assets/5981331/5370576e-d5a
 3. Use Ngrok to create tunnel `ngrok http 5207`, so your app on a simulator can connect to your local server
 
 ### Mobile app
-4. Using Node 18, install dependencies using `yarn` in the Client folder
-5. Run the app with `yarn ios`
+4. Add the ngrok address + /conversation at in the App.js file
+5. Using Node 18, install dependencies using `yarn` in the Client folder
+6. Run the app with `yarn ios`
